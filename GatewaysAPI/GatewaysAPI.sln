@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GatewaysAPI", "GatewaysAPI\GatewaysAPI.csproj", "{5E47173D-BAAD-4BE9-95E6-EF9C806D0531}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "GatewaysUI", "GatewaysUI\GatewaysUI.njsproj", "{F59CAE75-6F19-48FB-B3B6-B29913563B85}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5E47173D-BAAD-4BE9-95E6-EF9C806D0531} = {5E47173D-BAAD-4BE9-95E6-EF9C806D0531}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E47173D-BAAD-4BE9-95E6-EF9C806D0531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E47173D-BAAD-4BE9-95E6-EF9C806D0531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E47173D-BAAD-4BE9-95E6-EF9C806D0531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E47173D-BAAD-4BE9-95E6-EF9C806D0531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59CAE75-6F19-48FB-B3B6-B29913563B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59CAE75-6F19-48FB-B3B6-B29913563B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59CAE75-6F19-48FB-B3B6-B29913563B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59CAE75-6F19-48FB-B3B6-B29913563B85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28EED723-AD8A-4B33-A0FC-FBD7796509FE}
+	EndGlobalSection
+EndGlobal

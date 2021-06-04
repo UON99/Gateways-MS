@@ -1,0 +1,2 @@
+C:\Users\Sava\Desktop\GatewaysAPI\GatewaysUI\obj\Release\GatewaysUI.njsproj.CoreCompileInputs.cache
+C:\Users\Sava\Desktop\GatewaysAPI\GatewaysUI\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,3 @@
+C:\Users\Sava\Desktop\GatewaysAPI\GatewaysUI\obj\Debug\GatewaysUI.njsprojAssemblyReference.cache
+C:\Users\Sava\Desktop\GatewaysAPI\GatewaysUI\obj\Debug\GatewaysUI.njsproj.CoreCompileInputs.cache
+C:\Users\Sava\Desktop\GatewaysAPI\GatewaysUI\bin\Microsoft.NodejsTools.WebRole.dll
