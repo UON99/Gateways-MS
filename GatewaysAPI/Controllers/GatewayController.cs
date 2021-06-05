@@ -81,6 +81,8 @@ namespace GatewaysAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Gateway>> PostGateway(Gateway gateway)
         {
+
+            Counter.Increment();
             _context.Gateways.Add(gateway);
             try
             {

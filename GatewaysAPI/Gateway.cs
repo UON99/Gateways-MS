@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 #nullable disable
 
@@ -9,6 +11,8 @@ namespace GatewaysAPI
     {
         public Gateway()
         {
+            Counter count2 = new Counter();
+            this.SerialNumber = "Serial" + Counter.Count;
             Peripherals = new HashSet<Peripheral>();
         }
 

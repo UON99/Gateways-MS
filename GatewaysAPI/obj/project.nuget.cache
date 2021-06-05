@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SwvjjAZt7GqH+UQ18nH1bVbxsQsZmgKt8iAovNKCM1Tm5rTaQAXQjGgZ4F8sa3I1Ehp2y+tpCzpqpMzMe2vmbQ==",
+  "dgSpecHash": "tZpatPQ9yMDCU8RZCXycOua70nwah5nMMlVR1GDrbplr9SoWthpiJmHn841mkDPu8bLOwy8GuDiYOXAE3kVPlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sava\\Downloads\\Gateways-MS-main\\GatewaysAPI\\GatewaysAPI\\GatewaysAPI.csproj",
+  "projectFilePath": "C:\\Users\\Sava\\Gateways-MS\\GatewaysAPI\\GatewaysAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sava\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Sava\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
@@ -179,7 +179,8 @@
     "C:\\Users\\Sava\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Sava\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Sava\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Sava\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Sava\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Sava\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.15\\microsoft.netcore.app.host.win-x64.3.1.15.nupkg.sha512"
   ],
   "logs": []
 }

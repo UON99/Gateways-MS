@@ -82,6 +82,7 @@ namespace GatewaysAPI.Controllers
         public async Task<ActionResult<Peripheral>> PostPeripheral([FromBody]Peripheral peripheral)
         {
             Gateway gateway = _context.Gateways.Include(g => g.Peripherals).First(g => g.SerialNumber == peripheral.GatewaySerialNumber);
+            
             if (gateway == null)
             {
                 return null;
