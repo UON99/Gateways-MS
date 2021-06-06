@@ -11,7 +11,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace GatewaysAPI.Controllers
 {
-    [EnableCors("MyPolicy")]
+    [EnableCors("AllowAll")]
     [Route("api/[controller]")]
     [ApiController]
     public class PeripheralController : ControllerBase
