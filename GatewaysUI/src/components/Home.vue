@@ -165,9 +165,9 @@
                  if (this.hrname == "" || this.ipv4 == "") {
                      alert("You must enter data in all fields")
                      return false;
-                 }
+                 } 
                  //is ip address valid?
-                 if (!(/^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/.test(this.ipv4))) { 
+                 if (!(/^([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])(\.([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])){3}$/.test(this.ipv4))) { 
                      alert("You have entered an invalid IP address!")
                      return false;
                  }

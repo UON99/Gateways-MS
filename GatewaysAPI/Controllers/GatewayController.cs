@@ -7,10 +7,12 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Cors;
+using System.Text.RegularExpressions;
+using System.ComponentModel.DataAnnotations;
 
 namespace GatewaysAPI.Controllers
 {
-    [EnableCors("MyPolicy")]
+    [EnableCors("AllowAll")]
     [Route("api/[controller]")]
     [ApiController]
     public class GatewayController : ControllerBase
@@ -81,6 +83,14 @@ namespace GatewaysAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<Gateway>> PostGateway(Gateway gateway)
         {
+
+            string Pattern = @"^([1-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])(\.([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])){3}$";
+            Regex check = new Regex(Pattern);
+
+            if (!check.IsMatch(gateway.Ipv4))
+            {
+                throw new ValidationException();
+            }
 
             Counter.Increment();
             _context.Gateways.Add(gateway);

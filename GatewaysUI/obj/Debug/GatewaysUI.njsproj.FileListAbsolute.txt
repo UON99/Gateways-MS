@@ -7,3 +7,6 @@ C:\Users\Sava\Downloads\Gateways-MS-main\GatewaysAPI\GatewaysUI\bin\Microsoft.No
 C:\Users\Sava\Gateways-MS\GatewaysUI\obj\Debug\GatewaysUI.njsprojAssemblyReference.cache
 C:\Users\Sava\Gateways-MS\GatewaysUI\obj\Debug\GatewaysUI.njsproj.CoreCompileInputs.cache
 C:\Users\Sava\Gateways-MS\GatewaysUI\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Sava\Desktop\Gateways-MS\GatewaysUI\obj\Debug\GatewaysUI.njsprojAssemblyReference.cache
+C:\Users\Sava\Desktop\Gateways-MS\GatewaysUI\obj\Debug\GatewaysUI.njsproj.CoreCompileInputs.cache
+C:\Users\Sava\Desktop\Gateways-MS\GatewaysUI\bin\Microsoft.NodejsTools.WebRole.dll

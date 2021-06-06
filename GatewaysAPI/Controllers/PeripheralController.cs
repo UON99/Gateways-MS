@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Cors;
+using System.ComponentModel.DataAnnotations;
 
 namespace GatewaysAPI.Controllers
 {
@@ -89,13 +90,18 @@ namespace GatewaysAPI.Controllers
             }
 
             if(gateway.Peripherals.Count < 10) {
+                if (peripheral.Status >= 1)
+                    peripheral.Status = 1;
+                else
+                    peripheral.Status = 0;
+
                 _context.Peripherals.Add(peripheral);
                 await _context.SaveChangesAsync();
                 return CreatedAtAction("GetPeripheral", new { id = peripheral.Uid }, peripheral);
             }
             else
             {
-                return BadRequest();
+                throw new ValidationException("No more than 10 devices are allowed for a Gateway");
             }
         }
 
